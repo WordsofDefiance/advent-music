@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="mb-3">
         <h1 class="text-3xl font-bold underline text-center">Jingle Jams</h1>
         <h2 class="text-3xl font-bold underline text-center">A Very Merry Musical Advent-ture</h2>
     </header>
