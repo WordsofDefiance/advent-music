@@ -28,6 +28,6 @@ const props = defineProps<{
 
 const isFlipped = ref(false);
 const flipCard = () => {
-    isFlipped.value = ! isFlipped.value;
+    isFlipped.value = true;
 };
 </script>
