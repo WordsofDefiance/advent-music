@@ -15,7 +15,7 @@ import { adventAlbums } from '../albums/albums';
 
 // Get the current day of the month
 const currentDate = new Date();
-const currentDayOfMonth = currentDate.getDate() - 1;
+const currentDayOfMonth = currentDate.getDate();
 
 // Calculate if an album should be disabled based on its index
 const isDisabled = (index: number) => {
