@@ -152,6 +152,12 @@ const berlinerPhilharmonikerAlbum = {
     embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/54Awn36ryf55PkZyOR4iwQ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
     year: 2010,
 };
+const manhattanTransferAlbum = {
+    name: "The Christmas Album",
+    artist: "Manhattan Transfer",
+    embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2xllDjO0rHEOWYcovUOBeL?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+    year: 1992,
+};
 
 export const adventAlbums: Album[] = [
     peanutsAlbum,
@@ -159,12 +165,12 @@ export const adventAlbums: Album[] = [
     legendAlbum,
     sufJanAlbum,
     philSpektorAlbum,
+    manhattanTransferAlbum,
     bingCrosbyAlbum,
     michaelBubleAlbum,
     jamesBrownAlbum,
     kaceyMusgravesAlbum,
     elvisAlbum,
-    leslieOdomAlbum,
     holidaysRuleAlbum,
     chetAtkinsAlbum,
     natKingColeAlbum,
@@ -179,4 +185,5 @@ export const adventAlbums: Album[] = [
     mannheimSteamrollerAlbum,
     daveBrubeckAlbum,
     berlinerPhilharmonikerAlbum,
+    mannheimSteamrollerAlbum,
 ];

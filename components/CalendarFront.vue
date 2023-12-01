@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-red-500 p-4 rounded-lg shadow-lg cursor-pointer relative" @click="flipCard">
+    <div class="bg-red-500 p-4 rounded-lg shadow-lg cursor-pointer relative"  @click="flipCard">
         <ChristmasLights />
         <CalendarAnimation :isFlipped="isFlipped">
             <template #front>
@@ -24,10 +24,13 @@ import { type Album } from '../types/AlbumType';
 const props = defineProps<{
     day: number,
     album: Album,
+    disabled: boolean,
 }>();
 
 const isFlipped = ref(false);
 const flipCard = () => {
-    isFlipped.value = true;
+    if (! props.disabled) {
+        isFlipped.value = true;
+    }
 };
 </script>

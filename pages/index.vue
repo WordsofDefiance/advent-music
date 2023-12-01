@@ -6,9 +6,19 @@
             :day="index + 1"
             :album="day"
             class="w-80 md:w-96 h-96 mb-6"
+            :disabled=isDisabled(index)
         />
      </div>
 </template>
 <script setup lang="ts">
 import { adventAlbums } from '../albums/albums';
+
+// Get the current day of the month
+const currentDate = new Date();
+const currentDayOfMonth = currentDate.getDate() - 1;
+
+// Calculate if an album should be disabled based on its index
+const isDisabled = (index: number) => {
+  return index >= currentDayOfMonth;
+};
 </script>
