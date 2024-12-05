@@ -78,8 +78,8 @@
             </svg>
         </div>
 </template>
-<script setup>
-const generateRandomBulbClasses = () => {
+<script setup lang="ts">
+const generateRandomBulbClasses: string[] = () => {
   const bulbColors = [
     "red_bulb",
     "green_bulb",
