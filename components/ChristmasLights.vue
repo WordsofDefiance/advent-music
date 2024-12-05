@@ -184,31 +184,31 @@ body {
 }
 
 .purple_bulb {
-  fill: #8A2BE2; /* Bright purple for a festive look */
+  fill: #8A2BE2;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }
 
 .orange_bulb {
-  fill: #FFA500; /* Vibrant orange for a warm holiday glow */
+  fill: #FFA500;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }
 
 .cyan_bulb {
-  fill: #00FFFF; /* Bright cyan for a frosty winter vibe */
+  fill: #00FFFF;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }
 
 .pink_bulb {
-  fill: #FF69B4; /* Cheerful pink for a festive and playful mood */
+  fill: #FF69B4;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }
 
-teal_bulb {
-  fill: #008080; /* Deep teal for a sophisticated Christmas tone */
+.teal_bulb {
+  fill: #008080;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }

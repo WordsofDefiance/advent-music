@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-red-500 p-4 rounded-lg shadow-lg cursor-pointer relative"  @click="flipCard">
+    <div class="bg-red-500 p-4 rounded-lg shadow-lg cursor-pointer relative duration-200 hover:shadow-2xl"  @click="flipCard">
         <ChristmasLights />
         <CalendarAnimation :isFlipped="isFlipped">
             <template #front>
