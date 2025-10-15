@@ -38,7 +38,7 @@ const bingCrosbyAlbum: Album = {
     year: 1945,
 };
 const michaelBubleAlbum = {
-    name: "Christmas is 4 Ever",
+    name: "Christmas (Deluxe Special Edition)",
     artist: "Michael Buble",
     embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7uVimUILdzSZG4KKKWToq0?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
     year: 2012,
@@ -185,5 +185,4 @@ export const adventAlbums: Album[] = [
     mannheimSteamrollerAlbum,
     daveBrubeckAlbum,
     berlinerPhilharmonikerAlbum,
-    mannheimSteamrollerAlbum,
 ];

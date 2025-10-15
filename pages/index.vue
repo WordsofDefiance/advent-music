@@ -6,7 +6,7 @@
             :day="index + 1"
             :album="day"
             class="w-80 md:w-96 h-96 mb-6"
-            :disabled=isDisabled(index)
+            :disabled="isDisabled(index)"
         />
      </div>
 </template>
