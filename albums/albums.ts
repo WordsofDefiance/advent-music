@@ -74,6 +74,12 @@ const chetAtkinsAlbum = {
     embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1gBNqRTkKueSXnU7FJwezN?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
     year: 1961,
 };
+const pentatonixAlbum = {
+    name: "The Best Of Pentatonix Christmas",
+    artist: "Pentatonix",
+    embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1ohdh4vzVUXhtaE04cHvle?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+    year: 2010,
+};
 const natKingColeAlbum = {
     name: "The Christmas Song",
     artist: "Nat King Cole",
@@ -158,31 +164,68 @@ const manhattanTransferAlbum = {
     embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2xllDjO0rHEOWYcovUOBeL?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
     year: 1992,
 };
+const andyWilliamsAlbum = {
+    name: "The Andy Christmas Album",
+    artist: "Andy Williams",
+    embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/30eO7X0doSEWKhDLAFLMuW?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+    year: 1967,
+};
+const laufeyAlbum = {
+    name: "A Very Laufey Holiday",
+    artist: "Laufey",
+    embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/32gqZfrZ51UMunez3CZDJZ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+    year: 2025,
+};
+const willyNelsonAlbum = {
+    name: "Pretty Paper",
+    artist: "Willy Nelson",
+    embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5Vdf8rMX6hBLQ0AQPunYQx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+    year: 1979,
+};
+const benFoldsAlbum = {
+    name: "Sleigher",
+    artist: "Ben Folds",
+    embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/38FRSwRvIG2yLXZmOHdhGd?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+    year: 2024,
+};
+const towerOfPowerAlbum = {
+    name: "It's Christmas",
+    artist: "Tower of Power",
+    embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3LvrF7NUY7WYuqVbxsfll4?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+    year: 2024,
+};
+const kellyClarksonAlbum = {
+    name: "When Christmas Comes Around Again",
+    artist: "Kelly Clarkson",
+    embedHtml: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5sVFXIMrFRKBtDOexVlBBU?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+    year: 2021,
+};
+
 
 export const adventAlbums: Album[] = [
-    peanutsAlbum,
-    ellaAlbum,
     legendAlbum,
-    sufJanAlbum,
+    mannheimSteamrollerAlbum,
     philSpektorAlbum,
     manhattanTransferAlbum,
-    bingCrosbyAlbum,
+    andyWilliamsAlbum,
     michaelBubleAlbum,
-    jamesBrownAlbum,
+    sufJanAlbum,
     kaceyMusgravesAlbum,
     elvisAlbum,
-    holidaysRuleAlbum,
-    chetAtkinsAlbum,
     natKingColeAlbum,
+    kellyClarksonAlbum,
+    towerOfPowerAlbum,
+    bingCrosbyAlbum,
     beachBoysAlbum,
-    jacobMillerAlbum,
-    darylHallJohnOatesAlbum,
     stevieWonderAlbum,
+    laufeyAlbum,
     frankSinatraAlbum,
     johnDenverMuppetsAlbum,
-    sharonJonesAlbum,
     transSiberianOrchestraAlbum,
-    mannheimSteamrollerAlbum,
     daveBrubeckAlbum,
-    berlinerPhilharmonikerAlbum,
+    willyNelsonAlbum,
+    benFoldsAlbum,
+    pentatonixAlbum,
+    ellaAlbum,
+    peanutsAlbum,
 ];
