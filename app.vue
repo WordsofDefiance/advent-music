@@ -1,5 +1,6 @@
 <template>
   <div class="bg-green-500">
+    <Snowflakes />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
