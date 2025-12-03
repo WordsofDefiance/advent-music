@@ -11,12 +11,19 @@
     "tsc": "tsc"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@nuxt/devtools": "latest",
+    "@nuxt/eslint": "^1.11.0",
     "autoprefixer": "^10.4.16",
+    "eslint": "^9.39.1",
+    "eslint-plugin-vue": "^10.6.2",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
     "nuxt": "^4.2.1",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.3.2",
+    "typescript-eslint": "^8.48.1",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5",
     "vue-tsc": "^1.8.22"

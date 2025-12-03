@@ -1,4 +1,4 @@
-import { type Album } from '~/types/AlbumType';
+import type { Album } from '~/types/AlbumType';
 
 
 const ellaAlbum: Album = {

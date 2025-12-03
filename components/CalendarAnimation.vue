@@ -2,17 +2,17 @@
     <div class="relative w-full h-full top-6">
       <div class="flip-card-inner h-full" :class="{ 'rotate-180': isFlipped }">
         <div class="flip-card-front absolute w-full h-full backface-hidden">
-          <slot name="front"></slot>
+          <slot name="front"/>
         </div>
         <div class="flip-card-back absolute w-full h-full backface-hidden rotate-180">
-          <slot name="back"></slot>
+          <slot name="back"/>
         </div>
       </div>
     </div>
   </template>
   
   <script setup lang="ts">
-   const props = defineProps({
+   defineProps({
       isFlipped: Boolean
    });
   </script>

@@ -51,11 +51,22 @@ export default {
             opacity: '0',
           },
         },
+        'sparkle': {
+          '0%, 100%': {
+            opacity: '0.4',
+            transform: 'scale(0.8) rotate(0deg)',
+          },
+          '50%': {
+            opacity: '0.9',
+            transform: 'scale(1.1) rotate(180deg)',
+          },
+        },
       },
       animation: {
         'fall': 'fall linear infinite',
         'fall-drift-left': 'fall-drift-left linear infinite',
         'fall-drift-right': 'fall-drift-right linear infinite',
+        'sparkle': 'sparkle 3s ease-in-out infinite',
       },
     },
   },

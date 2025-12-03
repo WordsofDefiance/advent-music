@@ -13,9 +13,9 @@
   </template>
   
   <script setup lang="ts">
-  import {type Album} from '../types/AlbumType';
+  import type {Album} from '../types/AlbumType';
 
-    const props = defineProps<{
+    defineProps<{
       album: Album
     }>();
   </script>
